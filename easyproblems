@@ -1,0 +1,20 @@
+Phone Number Validation::::
+
+
+n = input()  # Read input as a string
+
+if len(n) != 10:
+    print("Invalid")
+else:
+    print("Valid")
+
+
+
+Kg(s) to Pound(s):::
+
+n = int(input())
+p = n * 2.2
+print("{:.2f}".format(p))
+
+
+
