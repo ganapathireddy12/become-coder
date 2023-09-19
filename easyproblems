@@ -17,4 +17,24 @@ p = n * 2.2
 print("{:.2f}".format(p))
 
 
+Reverse of a Numbers:::
+
+
+n=input()[::-1]
+print(n)
+
+
+To Lower Case::
+
+n=input()
+l=n.lower()
+print(l)
+
+
+Area of a Circle:::
+
+PI = 3.14
+r = float(input())
+area = PI * r * r
+print("%.2f" %area)
 
